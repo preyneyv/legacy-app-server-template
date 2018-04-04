@@ -1,0 +1,11 @@
+{
+  "name": "legacy-app-server-template",
+  "version": "1.0.0",
+  "url": "legacy-app-server-template",
+  "description": "A template for the Legacy App Server",
+  "main": "index.js",
+  "repository": "git@github.com:preyneyv/legacy-app-server-template",
+  "author": "Pranav Nutalapati <pranavnutalapati@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
