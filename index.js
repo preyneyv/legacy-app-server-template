@@ -6,7 +6,7 @@ const app = require('express')()
 function init() {
 	// This function is called once the module loads
 	// Here you can initialize everything about your app
-
+	app.get('/', (req, res) => res.send("It works!"))
 }
 
 // Export these so that the app server can use them

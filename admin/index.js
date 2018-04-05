@@ -9,6 +9,7 @@ const app = require('express')()
 
 function init() {
 	// Initialize the admin server here
+	app.get('/', (req, res) => res.send("It also works!"))
 }
 
 module.exports = { app, init }
