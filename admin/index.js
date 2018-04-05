@@ -10,3 +10,5 @@ const app = require('express')()
 function init() {
 	// Initialize the admin server here
 }
+
+module.exports = { app, init }

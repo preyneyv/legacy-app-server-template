@@ -10,4 +10,4 @@ function init() {
 }
 
 // Export these so that the app server can use them
-module.exports = [app, init]
+module.exports = { app, init }
